@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Returning Home</title>
+    <meta charset="utf-8">
+    <script src="directions.js"></script>
+</head>
+<body>
+    <h1>Directions Home</h1>
+    <p>Please input your directions to school and I'll show you how to get home</p>
+    <form action="" method="POST" id="dirForm" name="myForm">
+        <label for="street_1">Enter Street Name: </label> 
+         <input type="text" name="street_1" id="street_1"><br>
+        
+        <label for="street_1_direction">Did you go left(L) or right(R)</label><br>
+
+        <input type="radio" name="street_1_direction" value="Right">R
+        <input type="radio" name="street_1_direction" value="Left">L 
+        <br>
+        <input type="button" id="btn" value="Add Direction">
+        
+       <p> <span id="err"></span> </p>
+
+        <p><input type="submit" value="submit" name="f_submit"></p> 
+
+    </form>
+    <div>
+        <h2>Directions to School</h2>
+        <span id="to_school"></span>
+    </div>
+    <div>
+        <h2>Directions back home</h2>
+        <span id="to_home"></span>
+    </div>
+</body>
+
+</html>

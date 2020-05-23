@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Game Form</title>
+</head>
+
+<body>
+   <h1>Tournament Selection</h1>
+    <form action="" method="post" id="gameForm" name="myForm">
+        <fieldset>
+            <legend>Games Won(W) or Lost (L)</legend>
+       
+            <p><label for="in_game1">Game 1:</label> 
+                 <input type="radio"  id="in_game1_w" name="f_Game1" value= 1 />W
+                <input type="radio"  id="in_game1_l" name="f_Game1" value= 0 />L 
+                <span id="err_game1"></span>   
+            </p>
+
+            <p><label for="in_game2">Game 2:</label> 
+                <input type="radio"  id="in_game2_w" name="f_Game2" value= 1 />W
+               <input type="radio"  id="in_game2_l" name="f_Game2" value= 0 />L  
+               <span id="err_game2"></span>  
+           </p>
+
+           <p><label for="in_game3">Game 3:</label> 
+            <input type="radio"  id="in_game3_w" name="f_Game3" value= 1 />W
+           <input type="radio"  id="in_game3_l" name="f_Game3" value= 0 />L  
+           <span id="err_game3"></span>  
+       </p>
+
+       <p><label for="in_game4">Game 4:</label> 
+        <input type="radio"  id="in_game4_w" name="f_Game4" value= 1 />W
+       <input type="radio"  id="in_game4_l" name="f_Game4" value= 0 />L   
+       <span id="err_game4"></span> 
+   </p>
+
+   <p><label for="in_game5">Game 5:</label> 
+    <input type="radio"  id="in_game5_w" name="f_Game5" value= 1 />W
+   <input type="radio"  id="in_game5_l" name="f_Game5" value= 0 />L   
+   <span id="err_game5"></span> 
+</p>
+
+<p><label for="in_game6">Game 6:</label> 
+    <input type="radio"  id="in_game6_w" name="f_Game6" value= 1 />W
+   <input type="radio"  id="in_game6_l" name="f_Game6" value= 0 />L   
+   <span id="err_game6"></span> 
+</p>
+
+
+
+
+
+            
+    </fieldset>
+   <p><input type="submit" value="submit" name="f_submit"></p> 
+    </form>
+    <span id="resultMsg">
+        
+    </span>
+    
+
+
+
+    <footer>
+
+    </footer>
+    <script src="tournament.js"></script>
+</body>
+</html>
