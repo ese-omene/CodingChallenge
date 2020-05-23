@@ -65,6 +65,7 @@ window.onload = function(){
            // "form subitted"
           //  )
           var toSchool = document.getElementById("to_school");
+          toSchool.style.textTransform = "uppercase";
 
        var arrayLength = streetArray.length;
        for (var i=0; i<arrayLength; i++){
@@ -96,6 +97,12 @@ window.onload = function(){
             
 
 
+            }
+            if (swapR[i] == "Left"){
+                swapR[i] = "Right";
+            }
+            else{
+                swapR[i] = "Left";
             }
             toHome.innerHTML +=  " turn " + swapR[i] + " into your Home <br>"
           
